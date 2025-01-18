@@ -17,7 +17,6 @@ body {
 }
 
 /* Navigation Section */
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -129,4 +128,54 @@ body {
   width: 100%;
   border-radius: 45px;
   object-fit: cover;
+}
+
+/* Services Section */
+.services {
+  padding: 2.5rem;
+}
+
+.services__heading {
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.services__items {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.services__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #aaa;
+  padding-bottom: 1rem;
+}
+
+.services__content {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.services__image {
+  font-size: 2rem;
+  color: #424242;
+}
+
+.services_title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.services__btn {
+  font-size: 2rem;
+  color: #333;
 }
