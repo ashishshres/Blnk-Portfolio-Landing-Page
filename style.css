@@ -16,7 +16,7 @@ body {
   font-family: "Inter", serif;
 }
 
-/* Navigation */
+/* Navigation Section */
 
 .nav {
   display: flex;
@@ -43,7 +43,7 @@ body {
   background-color: #000;
 }
 
-/* Header */
+/* Header Section */
 .header {
   display: flex;
   justify-content: space-between;
@@ -83,4 +83,50 @@ body {
   padding: 5px 10px;
   font-size: 0.75rem;
   font-weight: 500;
+}
+
+/* Overlay Section*/
+.overlay {
+  padding: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(4, 150px);
+  gap: 1.5rem;
+}
+
+.overlay__a {
+  grid-column: 1/9;
+  grid-row: 1/2;
+}
+
+.overlay__b {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.overlay__c {
+  grid-column: 2/9;
+  grid-row: 2/3;
+}
+
+.overlay__d {
+  grid-column: 1/9;
+  grid-row: 3/4;
+}
+
+.overlay__e {
+  grid-column: 1/6;
+  grid-row: 4/5;
+}
+
+.overlay__f {
+  grid-column: 6/9;
+  grid-row: 4/5;
+}
+
+.overlay__content {
+  height: 100%;
+  width: 100%;
+  border-radius: 45px;
+  object-fit: cover;
 }
