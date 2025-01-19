@@ -83,6 +83,12 @@ body {
   padding: 5px 10px;
   font-size: 0.75rem;
   font-weight: 500;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.header__link:hover {
+  background-color: #212121;
+  color: #fff;
 }
 
 /* Overlay Section*/
@@ -241,10 +247,17 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.25s ease-in-out;
 }
 
 .btn__arrow {
   font-size: 1.5rem;
+}
+
+.works__btn:hover {
+  background-color: #212121;
+  color: #fff;
 }
 
 /* Journal Section */
@@ -314,6 +327,12 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  transition: background-color 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.footer__btn:hover {
+  background-color: #d1d1d1;
 }
 
 .footer__content {
@@ -333,6 +352,11 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 0.9rem;
+  transition: color 0.25s ease-in-out;
+}
+
+.footer__link:hover {
+  color: #d1d1d1;
 }
 
 .footer__copyright {
